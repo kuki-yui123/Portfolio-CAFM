@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cris-Ann - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Cris-Ann Frias Mendoza</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting-badge">
+                        <span class="wave">👋</span> Welcome to my portfolio
+                    </div>
+                    <h1>Hi, I'm <span class="highlight">CRIS-ANN</span></h1>
+                    <div class="typing-container">
+                        <span class="typing-text">BS Information Technology Student</span>
+                    </div>
+                    <p class="bio">I am a BS Information Technology student at LSPU Sta. Cruz. I am passionate about
+                        technology, web development, and creating meaningful projects. I love learning, exploring
+                        digital tools, and improving my skills through hands-on experience.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>View Projects</span>
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="scroll-indicator">
+                        <span>Scroll Down</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-pic-wrapper">
+                        <div class="profile-pic">
+                            <img src="IMG_20250612_223728_982.jpg" alt="Ann Frias" id="profileImage">
+                        </div>
+                        <div class="floating-icons">
+                            <div class="float-icon" style="--delay: 0s"><i class="fas fa-code"></i></div>
+                            <div class="float-icon" style="--delay: 0.5s"><i class="fab fa-python"></i></div>
+                            <div class="float-icon" style="--delay: 1s"><i class="fas fa-database"></i></div>
+                            <div class="float-icon" style="--delay: 1.5s"><i class="fab fa-html5"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="1">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="2">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML, CSS, JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="3">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python / Flask</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="4">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL / Database Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="5">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Basics</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="6">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Adobe XD</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="7">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3>PHP</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="8">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <h3>Android Studio</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="9">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="10">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>C#</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="icon-glow"></div>
+                </div>
+                <div class="education-content">
+                    <span class="education-badge">Current</span>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p class="major"><i class="fas fa-laptop-code"></i> Major in Web and Mobile Development</p>
+                    <p class="institution"><i class="fas fa-university"></i> Laguna State Polytechnic University – Sta.
+                        Cruz Campus</p>
+                    <p class="year"><i class="fas fa-calendar-alt"></i> 3rd Year Student</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training & Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Training & Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-box">
+                    <h3><i class="fas fa-certificate"></i> Trainings Completed</h3>
+                    <ul class="experience-list" id="trainingList">
+                        <li>Add your completed trainings here</li>
+                    </ul>
+                </div>
+                <div class="experience-box">
+                    <h3><i class="fas fa-briefcase"></i> On-the-job Experience</h3>
+                    <ul class="experience-list" id="experienceList">
+                        <li>Add your work experience or project-based experience here</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Things I've built and worked on</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-tag">Android Studio</span>
+                            <span class="project-tag">Mobile App</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ATTENDIFY</h3>
+                        <p>An attendance management application built using Android Studio for efficient tracking and
+                            management of attendance records</p>
+                        <a href="https://github.com/kuki-yui123/Attendify.git" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">Console App</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Romy Duck Poultry Management System</h3>
+                        <p>A console application built in C# for managing poultry farm operations and inventory</p>
+                        <a href="https://github.com/kuki-yui123" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-tag">Web App</span>
+                            <span class="project-tag">Healthcare</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>San Benito E-Health</h3>
+                        <p>An electronic health management system for streamlining healthcare services and patient
+                            records</p>
+                        <a href="https://github.com/kuki-yui123" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-tag">Inventory</span>
+                            <span class="project-tag">Management</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Damada Cafe Inventory System</h3>
+                        <p>An inventory management system designed for cafe operations, tracking stock and supplies</p>
+                        <a href="https://github.com/kuki-yui123" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-tag">Web System</span>
+                            <span class="project-tag">POS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kapehan Sa Nayon Page System</h3>
+                        <p>A point-of-sale and management system for a local coffee shop business</p>
+                        <a href="https://github.com/kuki-yui123" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-tag">E-commerce</span>
+                            <span class="project-tag">Web App</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mstyle Ecommerce</h3>
+                        <p>A full-featured e-commerce platform for online shopping with product catalog and checkout
+                            system</p>
+                        <a href="https://github.com/kuki-yui123" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>mendozacrisann14@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/crisann.mendoza. 1" target="_blank" class="social-icon"
+                                title="Facebook">
+                                <i class="fab fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://github.com/kuki-yui123" target="_blank" class="social-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name"><i class="fas fa-user"></i> Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fas fa-comment"></i> Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ann Frias. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
